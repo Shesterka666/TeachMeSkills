@@ -1,5 +1,5 @@
 def print_ne(s):
-    return print(s + " - это не число")
+    return print(s + " - э то не число")
 
 def task_1(string):
     return print(string[::-1])
