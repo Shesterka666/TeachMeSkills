@@ -26,7 +26,6 @@ def task_3_1(n):
         list = ["*" for x in range(nn)]
         print(*list)
 
-
 def task_3(n):
     nn = proverka_na_chislo(n)
     if type(proverka_na_chislo(n)) != int:
@@ -36,6 +35,7 @@ def task_3(n):
             for j in range(nn):
                 print("*", end="\t")
             print()
+
 def task_4(x):
     try:
         if int(x) <= 999 or int(x) >= 10000:
@@ -44,15 +44,16 @@ def task_4(x):
             return(print(x[1] + x[0] + x[3] + x[2]))
     except:
         print("Вы ввели не число :(")
+
 def task_5():
     #x = int(input())
     #y = int(input())
     x = "405"
     y = "839"
     summy = 0
-    a = (int(x[0]) + int(y[0]))%10
-    b = (int(x[1]) + int(y[1]))%10
-    c = (int(x[2]) + int(y[2]))%10
+    a = (int(x[0]) + int(y[0])) % 10
+    b = (int(x[1]) + int(y[1])) % 10
+    c = (int(x[2]) + int(y[2])) % 10
     print(f"{a}{b}{c}")
 
 def task_6(red: int, green: int , blue: int):
@@ -62,6 +63,7 @@ def task_6(red: int, green: int , blue: int):
 def task_7(A: int, B: int, C: int):
     task = (B - A)/C
     return print(task)
+
 def main():
     task_1(input())
     task_2(input())
