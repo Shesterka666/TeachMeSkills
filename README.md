@@ -1,2 +1,0 @@
-# TeachMeSkills
-Для проектов
